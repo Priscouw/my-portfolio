@@ -9,9 +9,12 @@ const Navigation = () => {
 
   return (
     <nav className="flex sm:px-7">
-      <ul className=" flex flex-col items-center gap-4 text-white sm:text-start sm:flex-row sm:gap-6  ">
+      <ul className="flex-col-row gap-4 pb-5 text-white sm:text-start sm:gap-6 sm:pb-0 md:gap-8 lg:gap-10">
         {navElements.map((navElement) => (
-          <li key={navElement.id}>
+          <li
+            className="hover:text-purple sm:text-base md:text-lg lg:text-xl "
+            key={navElement.id}
+          >
             <a href={`#${navElement.id}`}>{navElement.title}</a>
           </li>
         ))}
