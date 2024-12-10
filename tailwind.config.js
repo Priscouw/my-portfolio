@@ -3,8 +3,15 @@ export default {
   content: ["./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
-    extend: {},
+    extend: {
+      "colors": {
+        "purple": "rgb(130,87,234)"
+      },
+      "backgroundImage": {
+        "hero-pattern": "url('img/pont-coree.jpg')"
+      },
+    },
   },
   plugins: [],
-}
+};
 
