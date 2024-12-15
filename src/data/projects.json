@@ -1,0 +1,152 @@
+[
+    {
+        "id": "1",
+        "name": "Booki",
+        "date": "04.2024",
+        "description": "Dans ce projet, l’objectif était d’intégrer l’interface statique de la page d’accueil d’une agence de voyage en <strong>HTML</strong> et <strong> CSS</strong> en s’aidant d’une maquette <strong>Figma</strong>.Ce projet a permis d’utiliser <strong>flexbox</strong> et <strong>grid</strong>. La page est <strong>responsive</strong> en mobile, tablette et desktop.",
+        "picture": "./projects/booki.jpg",
+        "altPicture": "projet de booki",
+        "modalPicture": "",
+        "altModalPicture": "",
+        "githubLink": "https://github.com/Priscouw/Bookin-projet",
+        "githubPage": true,
+        "githubPageLink": "https://priscouw.github.io/Bookin-projet/",
+        "languages": [
+            {
+                "name": "html",
+                "logo": "./img/logos/logo-html.webp"
+            },
+            {
+                "name": "css",
+                "logo": "./img/logos/logo-css.png"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Ohmyfood",
+        "date": "05.2024",
+        "description": "Sur cette mission, le but était de développer un site <strong>responsive</strong> qui répertorie les menus de restaurant en <strong>mobile first</strong> . On a utiliser <strong>SASS</strong> et ajouter des <strong>animations css</strong> pour une meilleure expérience utilisateur.",
+        "picture": "./projects/ohmyfood.jpg",
+        "altPicture": "projet de ohmyfood",
+        "modalPicture": "",
+        "altModalPicture": "",
+        "githubLink": "https://github.com/Priscouw/ohMyFood",
+        "githubPage": true,
+        "githubPageLink": "https://priscouw.github.io/ohMyFood/",
+        "languages": [
+            {
+                "name": "html",
+                "logo": "./img/logos/logo-html.webp"
+            },
+            {
+                "name": "sass",
+                "logo": "./img/logos/logo-sass.webp"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "SophieBluel",
+        "date": "07.2024",
+        "description": "Sur le portfolio d’une architecte, l’objectif était de coder une <strong>page de connexion</strong> et une <strong>modale</strong> pour pouvoir gérer les travaux. Permettre à l’utilisateur de pouvoir <strong>filtrer</strong> les travaux de l’architecte. On a communiquer avec une <strong>API</strong> pour pouvoir se connecter en tant qu’administrateur et être en mesure de récupérer ,ajouter et supprimer des travaux.",
+        "picture": "./projects/sophie-bluel.jpg",
+        "altPicture": "projet de sophie bluel",
+        "modalPicture": "",
+        "altModalPicture": "",
+        "githubLink": "https://github.com/Priscouw/Portfolio-architecte-sophie-bluel",
+        "githubPage": false,
+        "githubPageLink": "",
+        "languages": [
+            {
+                "name": "html",
+                "logo": "./img/logos/logo-html.webp"
+            },
+            {
+                "name": "css",
+                "logo": "./img/logos/logo-css.png"
+            },
+            {
+                "name": "javascript",
+                "logo": "./img/logos/logo-javascript.webp"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Kasa",
+        "date": "08.2024",
+        "description": "Intégrer les pages web de façon dynamique d’une entreprise de location d’appartement. L’utilisation de <strong>React</strong> a permis de créer des <strong>composants réutilisable</strong>(carrousel,page de logement, collapse ...)",
+        "picture": "./projects/kasa.jpg",
+        "altPicture": "projet de kasa",
+        "modalPicture": "",
+        "altModalPicture": "",
+        "githubLink": "https://github.com/Priscouw/kasa ",
+        "githubPage": false,
+        "githubPageLink": "",
+        "languages": [
+            {
+                "name": "sass",
+                "logo": "./img/logos/logo-sass.webp"
+            },
+            {
+                "name": "react",
+                "logo": "./img/logos/logo-react.webp"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "NinaCarducci",
+        "date": "09.2024",
+        "description": "Sur le site d’une photographe, optimiser le code et sa structure afin d’améliorer les <strong>performances</strong> et l'<strong>accessibilité</strong> du site en utilisant les outils Lighthouse et Wave, permettre un meilleur référencement <strong>(SEO)</strong>.",
+        "picture": "./projects/nina-carducci.jpg",
+        "altPicture": "projet de nina carducci",
+        "modalPicture": "",
+        "altModalPicture": "",
+        "githubLink": "https://github.com/Priscouw/NinaCarducci",
+        "githubPage": true,
+        "githubPageLink": "https://priscouw.github.io/NinaCarducci/",
+        "languages": [
+            {
+                "name": "html",
+                "logo": "./img/logos/logo-html.webp"
+            },
+            {
+                "name": "css",
+                "logo": "./img/logos/logo-css.png"
+            },
+            {
+                "name": "javascript",
+                "logo": "./img/logos/logo-javascript.webp"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "ArgentBank",
+        "date": "10.2024",
+        "description": "Sur une plateforme bancaire,  À l’aide d’une <strong>API</strong> gérer la connexion, déconnexion et récupération des données.Implémenter la gestion des données avec <strong>Redux</strong>. Ecrire les différentes routes API pour gérer les transaction via <strong>Swagger</strong>.",
+        "picture": "./projects/argent-bank.jpg",
+        "altPicture": "projet de argent bank",
+        "modalPicture": "",
+        "altModalPicture": "",
+        "githubLink": "https://github.com/Priscouw/ArgentBank",
+        "githubPage": false,
+        "githubPageLink": "",
+        "languages": [
+            {
+                "name": "react",
+                "logo": "./img/logos/logo-react.webp"
+            },
+            {
+                "name": "sass",
+                "logo": "./img/logos/logo-sass.webp"
+            },
+            {
+                "name": "redux",
+                "logo": "./img/logos/logo-redux-svg"
+            }
+        ]
+    }
+]
