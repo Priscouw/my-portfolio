@@ -2,7 +2,7 @@ import { PropTypes } from "prop-types";
 
 export const SectionTitle = (props) => {
   return (
-    <h2 className="text-violet-600 text-center text-2xl mb-16 sm:text-3xl lg:text-left">
+    <h2 className="text-purple text-center text-2xl mb-16 sm:text-3xl lg:text-left">
       {props.title}
     </h2>
   );
