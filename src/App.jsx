@@ -1,5 +1,6 @@
 import Header from "./layout/Header";
 import HeroHeader from "./layout/HeroHeader";
+import QuiSuisJe from "./layout/QuiSuisJe";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Header />
       <main>
         <HeroHeader />
+        <QuiSuisJe />
       </main>
     </>
   );
