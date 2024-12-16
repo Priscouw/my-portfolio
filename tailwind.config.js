@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       "colors": {
-        "purple": "rgb(130,87,234)"
+        "purple": "rgb(146 109 237)"
       },
       "backgroundImage": {
         "hero-pattern": "url('/img/seongsu-bridge.webp')"
