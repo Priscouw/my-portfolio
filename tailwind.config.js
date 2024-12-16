@@ -8,7 +8,7 @@ export default {
         "purple": "rgb(130,87,234)"
       },
       "backgroundImage": {
-        "hero-pattern": "url('/img/pont-coree.jpg')"
+        "hero-pattern": "url('/img/seongsu-bridge.webp')"
       },
     },
   },
