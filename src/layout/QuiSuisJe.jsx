@@ -5,7 +5,7 @@ const QuiSuisJe = () => {
     <section className="w-[90%] max-w-6xl m-auto mt-16 mb-16" id="about">
       <SectionTitle title="Qui suis je?" />
       <div className="flex flex-col gap-20 lg:flex-row lg:h-[550px] lg:gap-48">
-        <div className="bg-zinc-900 p-6 text-white text-center rounded-xl flex flex-col justify-center gap-5 sm:p-10 sm:h-[400px] sm:text-[1.1rem] lg:w-[50%] lg:h-auto xl:text-[1.2rem]">
+        <div className="bg-zinc-900 p-6 text-white text-center rounded-xl flex flex-col justify-center gap-5 min-h-[500px] sm:p-10 sm:h-[400px] sm:min-h-fit sm:text-[1.1rem] lg:w-[50%] lg:h-auto xl:text-[1.2rem]">
           <p>
             Je m&apos;appelle <strong>Priscilla</strong>. Après plusieurs années
             à travailler en tant qu&apos;auxiliaire de puériculture, j&apos;ai
@@ -23,7 +23,7 @@ const QuiSuisJe = () => {
             <strong> portfolio</strong>, reflet de cette nouvelle aventure.
           </p>
         </div>
-        <div className=" flex items-center rounded-xl overflow-hidden h-[600px] sm:h-[400px] lg:w-[50%] lg:h-auto ">
+        <div className=" flex items-center rounded-xl overflow-hidden max-h-[500px] sm:h-[400px] lg:w-[50%] lg:h-auto lg:max-h-none ">
           <img
             className="h-full object-cover w-full"
             src="./img/priscilla.jpg"
