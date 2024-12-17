@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  strong {
+    color: rgb(146 109 237);
+  }
+}
+
 @layer components {
   .flex-col-row {
     @apply flex flex-col items-center sm:flex-row;
