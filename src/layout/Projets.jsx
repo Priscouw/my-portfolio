@@ -10,7 +10,7 @@ export const Projets = () => {
         {projects.map((projet) => (
           <button
             key={projet.id}
-            className="max-w-xs transition hover:scale-110 hover:transition hover:ease-linear "
+            className="max-w-xs transition hover:scale-110 hover:transition hover:ease-linear relative"
             aria-label={`Voir le projet ${projet.name}`}
           >
             <img
@@ -18,6 +18,9 @@ export const Projets = () => {
               alt={projet.altPicture}
               className="object-cover w-full rounded-lg"
             />
+            <span className=" transition-opacity absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center bg-black bg-opacity-80 text-xl text-white opacity-0 hover:opacity-100 hover:transition-opacity">
+              En savoir plus
+            </span>
           </button>
         ))}
       </div>
