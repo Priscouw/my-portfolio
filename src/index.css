@@ -12,4 +12,8 @@
   .flex-col-row {
     @apply flex flex-col items-center sm:flex-row;
   }
+
+  .container-section {
+    @apply w-[90%] max-w-6xl mx-auto my-16;
+  }
 }
