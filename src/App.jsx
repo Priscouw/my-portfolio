@@ -1,3 +1,4 @@
+import Competences from "./layout/Competences";
 import Header from "./layout/Header";
 import HeroHeader from "./layout/HeroHeader";
 import { Projets } from "./layout/Projets";
@@ -11,6 +12,7 @@ function App() {
         <HeroHeader />
         <QuiSuisJe />
         <Projets />
+        <Competences />
       </main>
     </>
   );
