@@ -18,7 +18,7 @@ export const Projets = () => {
               alt={projet.altPicture}
               className="object-cover w-full rounded-lg"
             />
-            <span className=" transition-opacity absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center bg-black bg-opacity-80 text-xl text-white opacity-0 hover:opacity-100 hover:transition-opacity">
+            <span className=" transition-opacity absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 text-xl text-white opacity-0 hover:opacity-100 hover:transition-opacity">
               En savoir plus
             </span>
           </button>
