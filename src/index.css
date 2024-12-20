@@ -16,4 +16,12 @@
   .container-section {
     @apply w-[90%] max-w-6xl mx-auto my-16;
   }
+
+  .menu-burger-open {
+    @apply h-auto flex pt-3;
+  }
+
+  .menu-burger-close {
+    @apply h-0 overflow-hidden pt-0;
+  }
 }
