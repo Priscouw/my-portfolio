@@ -19,9 +19,9 @@ const Header = () => {
         </button>
       </div>
       <Navigation
-        className={`h-0 overflow-hidden sm:h-auto ${
-          isMenuOpen ? "h-auto" : ""
-        }`}
+        className={`${
+          isMenuOpen ? "menu-burger-open" : "menu-burger-close"
+        } sm:flex sm:overflow-auto sm:h-auto sm:pt-0`}
       />
     </header>
   );
