@@ -1,5 +1,6 @@
 import mesCompetences from "../data/competences";
 import { SectionTitle } from "../components/SectionTitle";
+import TechIcon from "../components/TechIcon";
 
 const Competences = () => {
   return (
@@ -7,17 +8,12 @@ const Competences = () => {
       <SectionTitle title="Mes compétences" />
       <div className="flex flex-wrap justify-center gap-10 lg:justify-start">
         {mesCompetences.map((competence) => (
-          <div
+          <TechIcon
             key={competence.title}
-            className=" w-[75px]
-          h-[75px] rounded-full overflow-hidden bg-white lg:w-[100px] lg:h-[100px]"
-          >
-            <img
-              src={competence.picture}
-              alt={competence.alt}
-              className="object-contain w-full h-full "
-            />
-          </div>
+            className={"w-[75px] h-[75px]"}
+            src={competence.picture}
+            alt={competence.alt}
+          />
         ))}
       </div>
     </section>
