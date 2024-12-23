@@ -25,11 +25,11 @@ const Parcours = () => {
   return (
     <section className="container-section" id="timeline">
       <SectionTitle title="Mon parcours" />
-      <div className="flex flex-col gap-6 ">
+      <div className="flex flex-col gap-10 ">
         {ParcoursInfos.map((parcours) => (
           <div
             key={parcours.intitule}
-            className="p-5 rounded-lg shadow-violetBlur"
+            className="p-5 rounded-lg shadow-violetBlur bg-zinc-900"
           >
             <h3 className="text-white text-xl sm:text-2xl pb-2">
               {parcours.intitule}
