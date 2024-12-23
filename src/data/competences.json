@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "HTML",
-        "picture": "./img/logos/logo-html.webp",
+        "picture": "./img/logos/logo-html.png",
         "alt": "Logo HTML"
     },
     {
@@ -14,7 +14,7 @@
     {
         "id": 3,
         "title": "JavaScript",
-        "picture": "./img/logos/logo-javascript.webp",
+        "picture": "./img/logos/logo-javascript.jpeg",
         "alt": "Logo JavaScript"
     },
     {
@@ -32,7 +32,7 @@
     {
         "id": 6,
         "title": "SASS",
-        "picture": "./img/logos/logo-sass.webp",
+        "picture": "./img/logos/logo-sass.png",
         "alt": "Logo SASS"
     }
 ]

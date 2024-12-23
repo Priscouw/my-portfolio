@@ -14,7 +14,7 @@
         "languages": [
             {
                 "name": "html",
-                "logo": "./img/logos/logo-html.webp"
+                "logo": "./img/logos/logo-html.png"
             },
             {
                 "name": "css",
@@ -37,11 +37,11 @@
         "languages": [
             {
                 "name": "html",
-                "logo": "./img/logos/logo-html.webp"
+                "logo": "./img/logos/logo-html.png"
             },
             {
                 "name": "sass",
-                "logo": "./img/logos/logo-sass.webp"
+                "logo": "./img/logos/logo-sass.png"
             }
         ]
     },
@@ -60,7 +60,7 @@
         "languages": [
             {
                 "name": "html",
-                "logo": "./img/logos/logo-html.webp"
+                "logo": "./img/logos/logo-html.png"
             },
             {
                 "name": "css",
@@ -68,7 +68,7 @@
             },
             {
                 "name": "javascript",
-                "logo": "./img/logos/logo-javascript.webp"
+                "logo": "./img/logos/logo-javascript.jpeg"
             }
         ]
     },
@@ -87,7 +87,7 @@
         "languages": [
             {
                 "name": "sass",
-                "logo": "./img/logos/logo-sass.webp"
+                "logo": "./img/logos/logo-sass.png"
             },
             {
                 "name": "react",
@@ -110,7 +110,7 @@
         "languages": [
             {
                 "name": "html",
-                "logo": "./img/logos/logo-html.webp"
+                "logo": "./img/logos/logo-html.png"
             },
             {
                 "name": "css",
@@ -118,7 +118,7 @@
             },
             {
                 "name": "javascript",
-                "logo": "./img/logos/logo-javascript.webp"
+                "logo": "./img/logos/logo-javascript.jpeg"
             }
         ]
     },
@@ -141,7 +141,7 @@
             },
             {
                 "name": "sass",
-                "logo": "./img/logos/logo-sass.webp"
+                "logo": "./img/logos/logo-sass.png"
             },
             {
                 "name": "redux",
