@@ -13,6 +13,7 @@ const Competences = () => {
             className={"w-[75px] h-[75px]"}
             src={competence.picture}
             alt={competence.alt}
+            title={competence.title}
           />
         ))}
       </div>
