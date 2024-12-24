@@ -1,7 +1,22 @@
 import { SectionTitle } from "../components/SectionTitle";
+import { Modal } from "../components/Modal";
 import projects from "./../data/projects.json";
+import { useState } from "react";
 
 export const Projets = () => {
+  const [open, setIsOpen] = useState(false);
+  const [selectedproject, setSelectedProject] = useState(null);
+
+  function openModal(project) {
+    setIsOpen(true);
+    setSelectedProject(project);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+    setSelectedProject(null);
+  }
+
   return (
     <section className="container-section" id="projects">
       <SectionTitle title="Mes projets" />
@@ -12,6 +27,7 @@ export const Projets = () => {
             key={projet.id}
             className="max-w-xs transition hover:scale-110 hover:transition hover:ease-linear relative"
             aria-label={`Voir le projet ${projet.name}`}
+            onClick={() => openModal(projet)}
           >
             <img
               src={projet.picture}
@@ -23,6 +39,9 @@ export const Projets = () => {
             </span>
           </button>
         ))}
+        {open && (
+          <Modal array={selectedproject} close={closeModal} className="flex" />
+        )}
       </div>
     </section>
   );
