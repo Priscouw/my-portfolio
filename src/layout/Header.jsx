@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <header className="flex-col-row border-b py-5 sticky top-0 z-50 bg-black sm:justify-between sm:border-solid">
       <div className="flex justify-between items-center w-full px-6 sm:px-0 sm:w-auto">
-        <h1 className="text-purple text-3xl text-center sm:px-6 sm:w-auto">
+        <p className="text-purple text-3xl text-center sm:px-6 sm:w-auto">
           Priscilla
-        </h1>
+        </p>
         <button
           className="sm:hidden text-white text-2xl"
           onClick={() => setIsMenuOpen(!isMenuOpen)}

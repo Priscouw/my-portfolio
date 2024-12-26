@@ -5,9 +5,9 @@ const HeroHeader = () => {
         <h1 className="text-4xl font-bold text-violet-600 md:text-5xl lg:text-6xl ">
           Priscilla
         </h1>
-        <p className=" text-3xl font-bold text-center text-white md:text-4xl lg:text-5xl">
+        <h2 className=" text-3xl font-bold text-center text-white md:text-4xl lg:text-5xl">
           Developpeuse Frontend
-        </p>
+        </h2>
       </div>
     </section>
   );
