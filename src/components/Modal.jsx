@@ -1,17 +1,31 @@
 import { RxCross1 } from "react-icons/rx";
 import { IoIosLink } from "react-icons/io";
 import { FiGithub } from "react-icons/fi";
+import { useEffect } from "react";
 
 import propTypes from "prop-types";
 
 import TechIcon from "./TechIcon";
 
 export const Modal = ({ array, className, close }) => {
+  useEffect(() => {
+    function handleEscape(event) {
+      if (event.key === "Escape") {
+        close();
+      }
+    }
+    document.addEventListener("keydown", handleEscape);
+    return () => document.removeEventListener("keydown", handleEscape);
+  });
+
   return (
     <div
       className={`fixed justify-center items-center top-[77px] inset-0 ${className} bg-black bg-opacity-70`}
     >
-      <div className="bg-black max-h-[750px- 86px] w-[90%] m-auto shadow-violetBlur flex flex-col z-40 rounded-xl xl:max-w-6xl ">
+      <div
+        className="bg-black max-h-[750px- 86px] w-[90%] m-auto shadow-violetBlur flex flex-col z-40 rounded-xl xl:max-w-6xl"
+        role="dialog"
+      >
         <div className="flex justify-end">
           <button onClick={close} aria-label="close modal">
             <RxCross1 className="text-white m-3 text-3xl" />
