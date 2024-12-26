@@ -12,6 +12,7 @@ const Header = () => {
           Priscilla
         </p>
         <button
+          aria-label="open/close nav menu "
           className="sm:hidden text-white text-2xl"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
