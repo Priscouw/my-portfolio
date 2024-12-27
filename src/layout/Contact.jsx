@@ -7,7 +7,7 @@ import { FiGithub } from "react-icons/fi";
 const Contact = () => {
   return (
     <section className="container-section" id="contact">
-      <SectionTitle title="Contact" className="mb-10" />
+      <SectionTitle title="Contact" />
       <div className="text-white flex justify-center gap-7 text-3xl sm:text-4xl sm:gap-10 lg:justify-start ">
         <a
           href="https://github.com/Priscouw"
