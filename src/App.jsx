@@ -4,6 +4,7 @@ import QuiSuisJe from "./layout/QuiSuisJe";
 import { Projets } from "./layout/Projets";
 import Competences from "./layout/Competences";
 import Parcours from "./layout/Parcours";
+import Contact from "./layout/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Projets />
         <Competences />
         <Parcours />
+        <Contact />
       </main>
     </>
   );
