@@ -69,11 +69,17 @@ export const Modal = ({ array, className, close }) => {
 
               <div className="flex gap-3 justify-end">
                 {array.githubPage && (
-                  <a href={array.githubPageLink}>
+                  <a
+                    href={array.githubPageLink}
+                    aria-label={`Aller sur le site ${array.name}`}
+                  >
                     <IoIosLink className="text-white text-4xl" />
                   </a>
                 )}
-                <a href={array.githubLink}>
+                <a
+                  href={array.githubLink}
+                  aria-label={`Aller sur le github de ${array.name}`}
+                >
                   <FiGithub className="text-white text-4xl" />
                 </a>
               </div>
