@@ -17,6 +17,14 @@ export const Projets = () => {
     setSelectedProject(null);
   }
 
+  // remove scrollbar behind modal
+
+  if (open) {
+    document.body.classList.add("overflow-hidden");
+  } else {
+    document.body.classList.remove("overflow-hidden");
+  }
+
   return (
     <section className="container-section" id="projects">
       <SectionTitle title="Mes projets" />
