@@ -10,7 +10,7 @@ const navElements = [
 const Navigation = ({ className = "" }) => {
   return (
     <nav
-      className={`flex justify-center sm:pr-7 ${className}`}
+      className={className}
       role="navigation"
       aria-label="Navigation principale"
     >
