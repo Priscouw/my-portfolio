@@ -1,6 +1,7 @@
 import { RxCross1 } from "react-icons/rx";
 import { IoIosLink } from "react-icons/io";
 import { FiGithub } from "react-icons/fi";
+
 import { useEffect } from "react";
 
 import propTypes from "prop-types";
@@ -9,6 +10,8 @@ import TechIcon from "./TechIcon";
 
 export const Modal = ({ array, className, close }) => {
   useEffect(() => {
+    // Can close modal with escape key
+
     function handleEscape(event) {
       if (event.key === "Escape") {
         close();
