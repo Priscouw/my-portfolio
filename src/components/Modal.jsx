@@ -1,12 +1,14 @@
 import { RxCross1 } from "react-icons/rx";
 import { IoIosLink } from "react-icons/io";
 import { FiGithub } from "react-icons/fi";
+import TechIcon from "./TechIcon";
 
 import { useEffect } from "react";
 
 import propTypes from "prop-types";
 
-import TechIcon from "./TechIcon";
+// remove tab focus when modal open
+import FocusLock from "react-focus-lock";
 
 export const Modal = ({ array, className, close }) => {
   useEffect(() => {
@@ -22,62 +24,64 @@ export const Modal = ({ array, className, close }) => {
   });
 
   return (
-    <div
-      className={`fixed justify-center items-center top-[77px] inset-0 ${className} bg-black bg-opacity-70`}
-    >
+    <FocusLock>
       <div
-        className="bg-black max-h-[750px- 86px] w-[90%] m-auto shadow-violetBlur flex flex-col z-40 rounded-xl xl:max-w-6xl"
-        role="dialog"
+        className={`fixed justify-center items-center top-[77px] inset-0 ${className} bg-black bg-opacity-70`}
       >
-        <div className="flex justify-end">
-          <button onClick={close} aria-label="close modal">
-            <RxCross1 className="text-white m-3 text-3xl" />
-          </button>
-        </div>
-        <div className="w-[90%]  mx-auto">
-          <img
-            src={array.modalPicture}
-            className="w-[90%] h-[250px] m-auto object-left-top object-cover rounded-xl sm:h-[350px]"
-            alt={`Aperçu du site ${array.name}`}
-          />
-          <div>
-            <p
-              className="text-white py-6 text-md text-center"
-              dangerouslySetInnerHTML={{ __html: array.description }}
-            ></p>
+        <div
+          className="bg-black max-h-[750px- 86px] w-[90%] m-auto shadow-violetBlur flex flex-col z-40 rounded-xl xl:max-w-6xl"
+          role="dialog"
+        >
+          <div className="flex justify-end">
+            <button onClick={close} aria-label="close modal">
+              <RxCross1 className="text-white m-3 text-3xl" />
+            </button>
           </div>
-
-          <div
-            className={`flex justify-between items-end mb-5 ${
-              array.languages.length > 3 ? "flex-col items-center gap-5" : ""
-            }`}
-          >
-            <div className="flex gap-3">
-              {array.languages.map((project) => (
-                <TechIcon
-                  key={project.name}
-                  src={project.logo}
-                  alt={project.name}
-                  title={project.name}
-                  className="w-10"
-                />
-              ))}
+          <div className="w-[90%]  mx-auto">
+            <img
+              src={array.modalPicture}
+              className="w-[90%] h-[250px] m-auto object-left-top object-cover rounded-xl sm:h-[350px]"
+              alt={`Aperçu du site ${array.name}`}
+            />
+            <div>
+              <p
+                className="text-white py-6 text-md text-center"
+                dangerouslySetInnerHTML={{ __html: array.description }}
+              ></p>
             </div>
 
-            <div className="flex gap-3 justify-end">
-              {array.githubPage && (
-                <a href={array.githubPageLink}>
-                  <IoIosLink className="text-white text-4xl" />
+            <div
+              className={`flex justify-between items-end mb-5 ${
+                array.languages.length > 3 ? "flex-col items-center gap-5" : ""
+              }`}
+            >
+              <div className="flex gap-3">
+                {array.languages.map((project) => (
+                  <TechIcon
+                    key={project.name}
+                    src={project.logo}
+                    alt={project.name}
+                    title={project.name}
+                    className="w-10"
+                  />
+                ))}
+              </div>
+
+              <div className="flex gap-3 justify-end">
+                {array.githubPage && (
+                  <a href={array.githubPageLink}>
+                    <IoIosLink className="text-white text-4xl" />
+                  </a>
+                )}
+                <a href={array.githubLink}>
+                  <FiGithub className="text-white text-4xl" />
                 </a>
-              )}
-              <a href={array.githubLink}>
-                <FiGithub className="text-white text-4xl" />
-              </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </FocusLock>
   );
 };
 
