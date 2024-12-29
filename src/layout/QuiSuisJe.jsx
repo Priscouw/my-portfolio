@@ -26,9 +26,9 @@ const QuiSuisJe = () => {
           <a
             href="cv-Priscilla.pdf"
             target="_blank"
-            className=" bg-purple text-black flex items-center gap-2 mt-4 px-5 py-2 mx-auto rounded-3xl hover:opacity-70 "
+            className=" bg-purple text-white flex items-center gap-2 mt-4 px-5 py-2 mx-auto rounded-3xl hover:opacity-70 font-medium"
           >
-            <IoIosLink className="text-xl sm:text-lg" /> Voir mon CV
+            <IoIosLink className="text-xl sm:text-2xl" /> Voir mon CV
           </a>
         </div>
         <div className=" flex items-center rounded-xl overflow-hidden max-h-[500px] sm:h-[400px] lg:w-[50%] lg:h-auto lg:max-h-none ">
