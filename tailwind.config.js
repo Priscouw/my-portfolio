@@ -11,7 +11,7 @@ export default {
         "hero-pattern": "url('/img/seongsu-bridge.webp')"
       },
       "boxShadow": {
-        violetBlur: "0 0 20px 5px rgb(146 109 237)",
+        violetBlur: "0 0 20px 3px rgb(146 109 237)",
       }
     },
   },
