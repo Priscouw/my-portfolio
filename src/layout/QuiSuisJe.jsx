@@ -24,7 +24,7 @@ const QuiSuisJe = () => {
             <strong> portfolio</strong>, reflet de cette nouvelle aventure.
           </p>
           <a
-            href="src/assets/cv-Priscilla.pdf"
+            href="cv-Priscilla.pdf"
             target="_blank"
             className=" bg-purple text-black flex items-center gap-2 mt-4 px-5 py-2 mx-auto rounded-3xl hover:opacity-70 "
           >
