@@ -40,7 +40,7 @@ export const Modal = ({ array, className, close }) => {
           <div className="w-[90%]  mx-auto">
             <img
               src={array.modalPicture}
-              className="w-[90%] h-[250px] m-auto object-left-top object-cover rounded-xl sm:h-[350px]"
+              className="w-[90%] h-[250px] m-auto object-left-top object-cover rounded-xl sm:h-[400px]"
               alt={`Aperçu du site ${array.name}`}
             />
             <div>
