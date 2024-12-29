@@ -26,7 +26,7 @@
         "id": "2",
         "name": "Ohmyfood",
         "date": "05.2024",
-        "description": "Sur cette mission, le but était de développer un site <strong>responsive</strong> qui répertorie les menus de restaurant en <strong>mobile first</strong> . On a utiliser <strong>SASS</strong> et ajouter des <strong>animations css</strong> pour une meilleure expérience utilisateur.",
+        "description": "Sur cette mission, le but était de développer un site <strong>responsive</strong> qui répertorie les menus de restaurant en <strong>mobile first</strong> . On a utilisé <strong>SASS</strong> et ajouté des <strong>animations css</strong> pour une meilleure expérience utilisateur.",
         "picture": "./img/projects/ohmyfood.jpg",
         "altPicture": "projet de ohmyfood",
         "modalPicture": "./img/projects/ohmyfood-accueil.png",

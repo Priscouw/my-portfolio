@@ -1,6 +1,6 @@
 import propTypes from "prop-types";
 const navElements = [
-  { title: "Qui suis je ?", id: "about" },
+  { title: "Qui suis-je ?", id: "about" },
   { title: "Projets", id: "projects" },
   { title: "Compétences", id: "skills" },
   { title: "Parcours", id: "timeline" },

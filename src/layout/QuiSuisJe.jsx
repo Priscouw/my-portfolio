@@ -4,7 +4,7 @@ import { SectionTitle } from "../components/SectionTitle";
 const QuiSuisJe = () => {
   return (
     <section className="container-section" id="about">
-      <SectionTitle title="Qui suis je?" />
+      <SectionTitle title="Qui suis-je?" />
       <div className="flex flex-col gap-20 lg:flex-row lg:h-[600px] lg:gap-48">
         <div className="bg-zinc-900 p-6 shadow-violetBlur text-white text-start rounded-xl flex flex-col justify-center gap-5 min-h-[500px] sm:p-6 sm:h-[400px] sm:min-h-fit sm:text-[1.1rem]  lg:w-[50%] lg:h-auto xl:text-[1.2rem] xl:p-10">
           <p>
