@@ -14,7 +14,7 @@
   }
 
   .container-section {
-    @apply w-[90%] max-w-6xl mx-auto my-16;
+    @apply w-[90%] max-w-6xl mx-auto my-16 scroll-mt-[78px];
   }
 
   .menu-burger-open {
