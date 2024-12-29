@@ -27,10 +27,12 @@ export const Modal = ({ array, className, close }) => {
     <FocusLock>
       <div
         className={`fixed justify-center items-center top-[77px] inset-0 ${className} bg-black bg-opacity-70`}
+        onClick={close}
       >
         <div
           className="bg-black max-h-[750px- 86px] w-[90%] m-auto shadow-violetBlur flex flex-col z-40 rounded-xl xl:max-w-6xl"
           role="dialog"
+          onClick={(e) => e.stopPropagation()}
         >
           <div className="flex justify-end">
             <button onClick={close} aria-label="close modal">
