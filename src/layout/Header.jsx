@@ -6,7 +6,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="flex-col-row border-b py-5 sticky top-0 z-50 bg-black sm:justify-between">
+    <header className="flex-col-row border-b py-5 sticky top-0 z-50 bg-zinc-950 sm:justify-between">
       <div className="flex justify-between items-center w-full px-6 sm:px-0 sm:w-auto">
         <a
           className="text-purple text-3xl text-center sm:px-6 sm:w-auto"
