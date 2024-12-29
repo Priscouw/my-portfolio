@@ -74,7 +74,7 @@ export const Modal = ({ array, className, close }) => {
                     aria-label={`Aller sur le site ${array.name}`}
                     target="_blank"
                   >
-                    <IoIosLink className="text-white text-4xl" />
+                    <IoIosLink className="text-white text-4xl hover:text-purple" />
                   </a>
                 )}
                 <a
@@ -82,7 +82,7 @@ export const Modal = ({ array, className, close }) => {
                   aria-label={`Aller sur le github de ${array.name}`}
                   target="_blank"
                 >
-                  <FiGithub className="text-white text-4xl" />
+                  <FiGithub className="text-white text-4xl  hover:text-purple" />
                 </a>
               </div>
             </div>
