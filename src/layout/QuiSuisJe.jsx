@@ -5,7 +5,7 @@ const QuiSuisJe = () => {
     <section className="container-section" id="about">
       <SectionTitle title="Qui suis je?" />
       <div className="flex flex-col gap-20 lg:flex-row lg:h-[550px] lg:gap-48">
-        <div className="bg-zinc-900 p-6 shadow-violetBlur text-white text-center rounded-xl flex flex-col justify-center gap-5 min-h-[500px] sm:p-10 sm:h-[400px] sm:min-h-fit sm:text-[1.1rem] lg:w-[50%] lg:h-auto xl:text-[1.2rem]">
+        <div className="bg-zinc-900 p-6 shadow-violetBlur text-white text-start rounded-xl flex flex-col justify-center gap-5 min-h-[500px] sm:p-10 sm:h-[400px] sm:min-h-fit sm:text-[1.1rem] lg:w-[50%] lg:h-auto xl:text-[1.2rem]">
           <p>
             Je m&apos;appelle <strong>Priscilla</strong>. Après plusieurs années
             à travailler en tant qu&apos;auxiliaire de puériculture, j&apos;ai
