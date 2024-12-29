@@ -26,7 +26,7 @@ const Header = () => {
       <Navigation
         className={`${
           isMenuOpen ? "menu-burger-open" : "menu-burger-close"
-        } sm:flex sm:overflow-auto sm:h-auto sm:pt-0`}
+        } sm:flex sm:overflow-auto sm:h-auto sm:pt-0 sm:pr-7`}
       />
     </header>
   );
