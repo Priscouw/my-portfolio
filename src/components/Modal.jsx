@@ -36,7 +36,7 @@ export const Modal = ({ array, className, close }) => {
         >
           <div className="flex justify-end">
             <button onClick={close} aria-label="close modal">
-              <RxCross1 className="text-white m-3 text-3xl" />
+              <RxCross1 className="text-white m-3 text-3xl hover:text-purple" />
             </button>
           </div>
           <div className="w-[90%]  mx-auto">
