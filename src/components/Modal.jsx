@@ -26,7 +26,7 @@ export const Modal = ({ array, className, close }) => {
   return (
     <FocusLock>
       <div
-        className={`fixed justify-center items-center top-[77px] inset-0 ${className} bg-black bg-opacity-70`}
+        className={`fixed justify-center items-center top-[77px] inset-0 bg-black bg-opacity-70 overflow-auto ${className}`}
         onClick={close}
       >
         <div
@@ -39,10 +39,10 @@ export const Modal = ({ array, className, close }) => {
               <RxCross1 className="text-white m-3 text-3xl hover:text-purple" />
             </button>
           </div>
-          <div className="w-[90%]  mx-auto">
+          <div className="w-[90%] mx-auto">
             <img
               src={array.modalPicture}
-              className="w-[90%] h-[250px] m-auto object-left-top object-cover rounded-xl sm:h-[400px]"
+              className="w-[90%] h-[250px] m-auto object-left-top object-cover rounded-xl sm:h-[300px] lg:h-[400px] xl:h-[500px]"
               alt={`Aperçu du site ${array.name}`}
             />
             <div>
