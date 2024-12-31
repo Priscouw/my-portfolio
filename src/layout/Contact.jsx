@@ -37,6 +37,7 @@ const Contact = () => {
             title={element.title}
             aria-label={element.ariaLabel}
             className="transition hover:scale-125 hover:transition hover:ease-linear"
+            rel="noopener noreferrer"
           >
             {element.logo}
           </a>

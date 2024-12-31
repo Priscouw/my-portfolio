@@ -77,6 +77,7 @@ export const Modal = ({ array, className, close }) => {
                     href={array.githubPageLink}
                     aria-label={`Aller sur le site ${array.name}`}
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <IoIosLink className="text-white text-4xl hover:text-purple" />
                   </a>
@@ -85,6 +86,7 @@ export const Modal = ({ array, className, close }) => {
                   href={array.githubLink}
                   aria-label={`Aller sur le github de ${array.name}`}
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FiGithub className="text-white text-4xl  hover:text-purple" />
                 </a>

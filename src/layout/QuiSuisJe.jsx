@@ -27,6 +27,7 @@ const QuiSuisJe = () => {
             href="cv-Priscilla.pdf"
             target="_blank"
             className=" bg-violet-600 text-white flex items-center gap-2 mt-4 px-5 py-2 mx-auto rounded-3xl hover:opacity-70 font-medium"
+            rel="noopener noreferrer"
           >
             <IoIosLink className="text-xl sm:text-2xl" /> Voir mon CV
           </a>
