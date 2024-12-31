@@ -35,9 +35,9 @@ const Parcours = () => {
             key={parcours.intitule}
             className="p-5 rounded-lg shadow-violetBlur bg-zinc-900"
           >
-            <h3 className="text-white text-xl sm:text-2xl pb-2">
+            <h4 className="text-white text-xl sm:text-2xl pb-2">
               {parcours.intitule}
-            </h3>
+            </h4>
             <p className="text-purple  text-lg sm:text-xl ">{parcours.lieu}</p>
             <p className="text-white pt-5">{parcours.description}</p>
           </div>
