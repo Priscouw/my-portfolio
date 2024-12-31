@@ -1,4 +1,4 @@
-import Navigation from "./navigation";
+import Navigation from "./Navigation";
 import { LuAlignJustify } from "react-icons/lu";
 import { useState } from "react";
 
