@@ -7,7 +7,7 @@ const ParcoursInfos = [
     dateDebut: "04/2024",
     dateFin: "01/2025",
     description:
-      "Durant cette formation, j'ai appris en pratiquant à travers différents projets plusieurs langages (Sass,Javascript,React ...). Chaque projet à été présenté et validé lors de soutenances devant des professionnels. J'y ai également découvert des notions essentielles comme l'optimisation du référencement, des performances et l'accessibilité etc.",
+      "Durant cette formation, j'ai appris en pratiquant à travers différents projets plusieurs langages (Sass,Javascript,React ...). Chaque projet a été présenté et validé lors de soutenances devant des professionnels. J'y ai également découvert des notions essentielles comme l'optimisation du référencement, des performances et l'accessibilité etc.",
   },
   {
     intitule: "Programme Vacances Travail",
@@ -15,7 +15,7 @@ const ParcoursInfos = [
     dateDebut: "06/2022",
     dateFin: "06/2023",
     description:
-      "Lors de cette expérience, j'y ai découvert une nouvelle culture et de nouveaux horizons. Cette expérience m'a permis de mieux me connaître, de sortir de ma zone de confort et de  renforcer mes compétences linguistiques, notamment en anglais et en coréen.",
+      "Lors de cette expérience, j'y ai découvert une nouvelle culture et de nouveaux horizons. Cette expérience m'a permis de mieux me connaître, de sortir de ma zone de confort et de  renforcer mes compétences linguistique, notamment en anglais et en coréen.",
   },
   {
     intitule: "Auxiliaire de Puériculture",
