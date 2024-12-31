@@ -33,6 +33,8 @@ const QuiSuisJe = () => {
         </div>
         <div className=" flex items-center rounded-xl overflow-hidden max-h-[500px] sm:h-[400px] lg:w-[50%] lg:h-auto lg:max-h-none ">
           <img
+            width="671"
+            height="1150"
             className="h-full object-cover w-full"
             src="./img/priscilla.jpg"
             alt="Priscilla souriante sur un fond bleu"

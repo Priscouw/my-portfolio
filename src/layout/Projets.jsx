@@ -38,6 +38,8 @@ export const Projets = () => {
             onClick={() => openModal(projet)}
           >
             <img
+              width="500"
+              height="500"
               src={projet.picture}
               alt={projet.altPicture}
               className="object-cover w-full rounded-lg"
