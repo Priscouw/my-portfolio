@@ -39,7 +39,7 @@ const Parcours = () => {
               {parcours.intitule}
             </h4>
             <p className="text-purple  text-lg sm:text-xl ">{parcours.lieu}</p>
-            <p className="text-white pt-5">{parcours.description}</p>
+            <p className="text-white pt-5 lg:text-lg">{parcours.description}</p>
           </div>
         ))}
       </div>
