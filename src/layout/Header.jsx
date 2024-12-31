@@ -27,6 +27,7 @@ const Header = () => {
         className={`${
           isMenuOpen ? "menu-burger-open" : "menu-burger-close"
         } sm:flex sm:overflow-auto sm:h-auto sm:pt-0 sm:pr-7`}
+        onclick={() => setIsMenuOpen(false)}
       />
     </header>
   );

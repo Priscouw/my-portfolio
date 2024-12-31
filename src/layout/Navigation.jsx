@@ -7,7 +7,7 @@ const navElements = [
   { title: "Contact", id: "contact" },
 ];
 
-const Navigation = ({ className = "" }) => {
+const Navigation = ({ className = "", onclick }) => {
   return (
     <nav
       className={className}
@@ -20,7 +20,9 @@ const Navigation = ({ className = "" }) => {
             className="hover:text-purple sm:text-base md:text-lg xl:text-xl "
             key={navElement.id}
           >
-            <a href={`#${navElement.id}`}>{navElement.title}</a>
+            <a href={`#${navElement.id}`} onClick={onclick}>
+              {navElement.title}
+            </a>
           </li>
         ))}
       </ul>
@@ -32,4 +34,5 @@ export default Navigation;
 
 Navigation.propTypes = {
   className: propTypes.string,
+  onclick: propTypes.func,
 };
