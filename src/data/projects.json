@@ -148,5 +148,28 @@
                 "logo": "./img/logos/logo-redux.svg"
             }
         ]
+    },
+    {
+        "id": "7",
+        "name": "Portfolio",
+        "date": "12.2024",
+        "description": "Sur ce projet je voulais quelque chose qui reflète à la fois <strong>ma personnalité</strong> et <strong>mon travail</strong>. J'ai utilisé <strong>React</strong> pour mettre en valeur ce que j'ai appris tout au long de ma formation et j'ai choisi <strong>Tailwind</strong> pour me challenger et développer de nouvelles compétences.",
+        "picture": "./img/projects/my-portfolio.jpg",
+        "altPicture": "projet de mon portfolio",
+        "modalPicture": "./img/projects/my-portfolio-accueil.png",
+        "altModalPicture": "Visuel de la page de mon portfolio",
+        "githubLink": "https://github.com/Priscouw/my-portfolio",
+        "githubPage": true,
+        "githubPageLink": "https://priscouw.github.io/my-portfolio/",
+        "languages": [
+            {
+                "name": "react",
+                "logo": "./img/logos/logo-react.png"
+            },
+            {
+                "name": "tailwind",
+                "logo": "./img/logos/logo-tailwind.png"
+            }
+        ]
     }
 ]
