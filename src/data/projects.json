@@ -126,7 +126,7 @@
         "id": "6",
         "name": "ArgentBank",
         "date": "10.2024",
-        "description": "Sur une plateforme bancaire, la tâche était de gérer la connexion, déconnexion et récupération des données à l’aide d’une <strong>API</strong>. Implémenter la gestion des données avec <strong>Redux</strong> et écrire  les différentes routes API pour gérer les transactions via <strong>Swagger</strong>.",
+        "description": "Sur une plateforme bancaire, la tâche était de gérer la connexion, déconnexion et récupération des données à l’aide d’une <strong>API</strong>. Implémenter la gestion des données avec <strong>Redux</strong> et utiliser l'éditeur de <strong>Swagger</strong> afin de proposer les différentes routes API qui pourrait être utilisé pour gérer les transactions des utilisateurs.",
         "picture": "./img/projects/argent-bank.jpg",
         "altPicture": "projet de argent bank",
         "modalPicture": "./img/projects/argent-bank-accueil.webp",
