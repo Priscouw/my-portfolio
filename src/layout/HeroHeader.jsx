@@ -6,7 +6,7 @@ const HeroHeader = () => {
           Priscilla
         </h1>
         <h2 className=" text-3xl font-bold text-center text-white md:text-4xl lg:text-5xl">
-          Développeuse Frontend
+          Développeuse Front-end
         </h2>
       </div>
     </section>
