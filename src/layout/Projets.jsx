@@ -25,12 +25,25 @@ export const Projets = () => {
     document.body.classList.remove("overflow-hidden");
   }
 
+  // sort projects by date
+
+  const sortedProjects = [...projects].sort((a, b) => {
+    const dateA = new Date(a.date.split(".").reverse().join("-"));
+    const dateB = new Date(b.date.split(".").reverse().join("-"));
+    return dateB - dateA; // trie du plus récent au plus ancien
+  });
+
+  /* split divise les chaines de caractères à partir du "."
+reverse inverse les chaines de caractères
+join ajoute un séparateur "-" entre les chaines de caractères
+*/
+
   return (
     <section className="container-section" id="projects">
       <SectionTitle title="Mes projets" />
 
       <div className="flex flex-wrap gap-10 justify-center lg:justify-around xl:justify-between">
-        {projects.map((projet) => (
+        {sortedProjects.map((projet) => (
           <button
             key={projet.id}
             className="max-w-xs transition hover:scale-110 hover:transition hover:ease-linear relative"
