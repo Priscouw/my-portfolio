@@ -171,5 +171,32 @@
                 "logo": "./img/logos/logo-tailwind.png"
             }
         ]
+    },
+    {
+        "id": "8",
+        "name": "PomodoroTimer",
+        "date": "05.2025",
+        "description": "Ce projet consiste en la création d’un widget Pomodoro conçu pour être intégré à mon stream. Il me permet de structurer mes sessions de travail et de pause en direct.Ce projet m'a permis de mettre en pratique mes compétences en <strong>Javascript</strong> tout en découvrant l'utilisation de la bibliothèque <strong>tmi.js</strong> qui permet de gérer le timer directement via des commandes dans le tchat <strong>Twitch</strong>.",
+        "picture": "./img/projects/pomodoro-logo.jpg",
+        "altPicture": "projet de mon timer pomodoro",
+        "modalPicture": "./img/projects/pomodoro-timer.webp",
+        "altModalPicture": "Visuel du widget pomodoro",
+        "githubLink": "https://github.com/Priscouw/chrono-stream",
+        "githubPage": false,
+        "githubPageLink": "",
+        "languages": [
+            {
+                "name": "html",
+                "logo": "./img/logos/logo-html.png"
+            },
+            {
+                "name": "css",
+                "logo": "./img/logos/logo-css.png"
+            },
+            {
+                "name": "javascript",
+                "logo": "./img/logos/logo-javascript.jpeg"
+            }
+        ]
     }
 ]
