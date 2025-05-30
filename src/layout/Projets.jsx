@@ -37,12 +37,11 @@ export const Projets = () => {
 reverse inverse les chaines de caractères
 join ajoute un séparateur "-" entre les chaines de caractères
 */
-
   return (
     <section className="container-section" id="projects">
       <SectionTitle title="Mes projets" />
 
-      <div className="flex flex-wrap gap-10 justify-center lg:justify-around xl:justify-between">
+      <div className="flex flex-wrap gap-10 justify-center md:justify-between">
         {sortedProjects.map((projet) => (
           <button
             key={projet.id}
@@ -62,6 +61,9 @@ join ajoute un séparateur "-" entre les chaines de caractères
             </span>
           </button>
         ))}
+        {projects.length % 3 === 2 && (
+          <div className="w-[320px] h-[320px] relative"></div>
+        )}
         {open && (
           <Modal array={selectedproject} close={closeModal} className="flex" />
         )}
