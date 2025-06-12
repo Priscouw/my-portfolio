@@ -82,8 +82,8 @@
         "modalPicture": "./img/projects/kasa-logement.webp",
         "altModalPicture": "Visuel de la page de logement de Kasa",
         "githubLink": "https://github.com/Priscouw/kasa-oc ",
-        "githubPage": false,
-        "githubPageLink": "",
+        "githubPage": true,
+        "githubPageLink": "https://priscouw.github.io/kasa-oc/#/",
         "languages": [
             {
                 "name": "sass",
