@@ -40,6 +40,7 @@ const QuiSuisJe = () => {
             className="h-full object-cover w-full"
             src="./img/priscilla.jpg"
             alt="Priscilla souriante sur un fond bleu"
+            onContextMenu={(e) => e.preventDefault()} // empêche d'enregistrer l'img via click droit
           />
         </div>
       </div>

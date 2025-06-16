@@ -46,6 +46,7 @@ export const Modal = ({ array, className, close }) => {
               src={array.modalPicture}
               className="w-[90%] h-[250px] m-auto object-left-top object-cover rounded-xl sm:max-h-[50vh] sm:h-auto"
               alt={array.altModalPicture}
+              onContextMenu={(e) => e.preventDefault()} // empêche d'enregistrer l'img via click droit
             />
             <div>
               <p
