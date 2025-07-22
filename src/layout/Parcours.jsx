@@ -3,7 +3,7 @@ import { SectionTitle } from "../components/SectionTitle";
 const ParcoursInfos = [
   {
     intitule: "Formation Intégrateur Web",
-    lieu: "OpenClassroom",
+    lieu: "OpenClassrooms",
     dateDebut: "04/2024",
     dateFin: "01/2025",
     description:
