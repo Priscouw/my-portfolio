@@ -24,7 +24,7 @@ const QuiSuisJe = () => {
             <strong> portfolio</strong>, reflet de cette nouvelle aventure.
           </p>
           <a
-            href="cv-Priscilla.pdf"
+            href="cv-priscilla.pdf"
             target="_blank"
             type="application/pdf"
             rel="noopener noreferrer"
